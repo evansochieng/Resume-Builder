@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route} from 'react-router-dom';
 
 // Import the other components
 import NavBar from "./components/NavBar";
@@ -9,9 +10,12 @@ import SignOut from "./components/SignOut";
 
 function App() {
   return (
-    <>
-      <CreateResume />
-    </>
+    <div>
+      <NavBar />
+      <Routes>
+        <Route path="/signin" element={<SignIn />}/>
+      </Routes>
+    </div>
   )
 }
 
