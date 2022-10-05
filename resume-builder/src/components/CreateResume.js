@@ -49,6 +49,9 @@ function CreateResume(){
                     <label htmlFor="projects">Projects</label>
                     <input type="text" name="projects" id="projects"/>
                 </div>
+
+                {/* Submit button */}
+                <button>Create</button>
             </form>
         </div>
     )

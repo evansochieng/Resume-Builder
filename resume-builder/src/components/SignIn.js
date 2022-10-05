@@ -10,7 +10,7 @@ function SignIn(){
                 <label htmlFor="password">Password: </label>
                 <input type="password" name="password" id="password" />
 
-                <button>SignIn</button>
+                <button>Sign In</button>
             </form>
         </div>
     )
