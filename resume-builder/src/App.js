@@ -13,7 +13,13 @@ function App() {
     <div>
       <NavBar />
       <Routes>
-        <Route path="/signin" element={<SignIn />}/>
+        <Route exact path="/signin" element={<SignIn />}/>
+
+        <Route exact path="/" element={<Home />}/>
+
+        <Route exact path="/createresume" element={<CreateResume />}/>
+
+        <Route exact path="/signout" element={<SignOut />}/>
       </Routes>
     </div>
   )

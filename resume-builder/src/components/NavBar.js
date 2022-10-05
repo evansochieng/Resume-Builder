@@ -7,6 +7,15 @@ function NavBar(){
             <NavLink to='/signin'>
                 Sign In
             </NavLink>
+            <NavLink to='/'>
+                Home
+            </NavLink>
+            <NavLink to='/createresume'>
+                Create Resume
+            </NavLink>
+            <NavLink to='/signout'>
+                Sign Out
+            </NavLink>
         </div>
     )
 }
