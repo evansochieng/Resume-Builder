@@ -8,7 +8,11 @@ import CreateResume from "./components/CreateResume";
 import SignOut from "./components/SignOut";
 
 function App() {
-  
+  return (
+    <>
+      <Home />
+    </>
+  )
 }
 
 export default App;
