@@ -10,7 +10,7 @@ import SignOut from "./components/SignOut";
 function App() {
   return (
     <>
-      <SignIn />
+      <CreateResume />
     </>
   )
 }
